@@ -10,10 +10,8 @@ int main (void){
 	fflush(stdin);
 	
 	celsius = 5 * (fahrenheit - 32)/9;
-	printf("Temperatura em graus Celsius: %.2f\n",celsius);
+	printf("Temperatura em graus Celsius: %.1f\n",celsius);
 
 	return 0;
-	
-
 }
 
