@@ -4,7 +4,7 @@
 int main (void){
 	
 	int n1,n2,soma;
-	float n3;
+	float n3,ra,rb,rc;
 	
 	printf("Digite o primeiro numero: ");
 	scanf("%i",&n1);
@@ -19,15 +19,16 @@ int main (void){
 	fflush(stdin);
 	
 	
-	soma = n1 * 2 + n2/2 ;
-	printf("O produto do dobro do primeiro com metade do segundo = %i\n",soma);
+	ra = n1*2+(float) n2/2 ;
+	printf("O produto do dobro do primeiro com metade do segundo = %.2f\n",ra);
 	
-	soma = n1 * 3 + n3;
-	printf("A soma do triplo do primeiro com o terceiro = %i\n",soma);
+	rb = n1 * 3 + n3;
+	printf("A soma do triplo do primeiro com o terceiro = %.2f\n",rb);
 	
-	soma = n3 * n3 * n3;
-	printf("O terceiro elevado ao cubo = %i",soma);
+	rc = n3 * n3 * n3;
+	printf("O terceiro elevado ao cubo = %.2f\n",rc);
 
 
 	return 0;
+}
 }
