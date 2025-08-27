@@ -5,7 +5,7 @@ int main (void){
 	
 	float fahrenheit,celsius;
 	
-	printf("Temperatura em graus Fahrenheit: ",fahrenheit);
+	printf("Temperatura em graus Fahrenheit: ");
 	scanf("%f",&fahrenheit);
 	fflush(stdin);
 	
@@ -16,3 +16,4 @@ int main (void){
 	
 
 }
+
