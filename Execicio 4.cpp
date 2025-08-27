@@ -3,15 +3,14 @@
 
 int main (void){
 	
-	float celsius,fahrenheit;
+	float fahrenheit,celsius;
 	
-	printf("Temperatura em graus celsius: ");
-	scanf("%f",&celsius);
+	printf("Temperatura em graus Fahrenheit: ");
+	scanf("%f",&fahrenheit);
 	fflush(stdin);
 	
-	fahrenheit = (celsius * 1.8) + 32;
-	
-	printf("Temperatura em graus fahrenheit: %.2f\n",fahrenheit);
-	
+	celsius = 5 * (fahrenheit - 32)/9;
+	printf("Temperatura em graus Celsius: %.1f\n",celsius);
+
 	return 0;
 }
