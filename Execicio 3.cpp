@@ -11,5 +11,8 @@ int main (void){
 	
 	celsius = 5 * (fahrenheit - 32)/9;
 	printf("Temperatura em graus Celsius: %.2f\n",celsius);
+
+	return 0;
 	
+
 }
