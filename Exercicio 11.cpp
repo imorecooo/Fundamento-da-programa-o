@@ -15,5 +15,7 @@ int main (void){
 	
 	
 	printf("devera ser pago: %.2f reais para o encanador. \nTotal do imposto: %.2f reais.",desconto,porcetagem);
-	
+
+	return 0;
+
 	}
