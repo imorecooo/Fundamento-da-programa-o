@@ -3,19 +3,19 @@
 
 int main (void){
 	
-	float raio,diametro;
+	float raio,area,pi=3.14;
 	
-	printf("Qual diamentro do circulo: ");
-	scanf("%f",&diametro);
+	printf("Digite o raio: ");
+	scanf("%f",&raio);
 	fflush(stdin);
 	
-	raio = diametro/2;
-	raio = raio * raio;
-	raio = 3.14 * raio;
+	area= pi*raio*raio;
 	
-	printf("Soma do circulo e: %.2f",raio);
+	printf("Area do circulo e: %.2f",area);
 	
 	return 0;
 	
 }
+
+
 
