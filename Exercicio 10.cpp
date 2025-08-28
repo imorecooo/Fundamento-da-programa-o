@@ -5,7 +5,7 @@ int main (void){
 		
 	float hora,valor_hora,salario;
 		
-	printf("Quantos voce ganha por hora: ");
+	printf("Quantos voce ganha por hora R$ ");
 	scanf("%f",&valor_hora);
 	fflush(stdin);
 	
@@ -14,7 +14,7 @@ int main (void){
 	fflush(stdin);
 	
 	salario = valor_hora * hora;
-	printf("Voce Recebe: %.2f",salario);
+	printf("Voce vai receber R$ %.2f",salario);
 	
 	return 0;
 		
